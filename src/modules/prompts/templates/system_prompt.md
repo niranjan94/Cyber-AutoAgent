@@ -97,6 +97,17 @@ Step: {{ current_step }}/{{ max_steps }} (Remaining: {{ remaining_steps }} steps
 
 **Premature stop prevention**: Capability ≠ objective. Verify chain complete: capability confirmed → direct use tested → objective reached. Discovery alone = INCOMPLETE.
 
+**MANDATORY Stop Procedure**: When objective is met with artifacts → IMMEDIATELY invoke stop tool with ONE comprehensive final report. DO NOT generate multiple reports. DO NOT continue operations just because budget remains.
+
+**Reporting Policy**:
+- ONE comprehensive report at operation end ONLY
+- Report generation = tool usage, counts toward progress evaluation
+- Anti-loop: If last 2 actions were reporting/documentation → MUST invoke stop tool next
+- Report contains: objective status, key artifacts, evidence summary, reproduction steps
+- NO intermediate reports, NO repeated reporting, NO report iterations
+
+**Stop Tool Invocation**: Required when objective met, regardless of remaining budget. Remaining budget does NOT justify continued operation or additional reporting.
+
 Operation-specific termination details in <termination_policy> section
 </termination>
 
